@@ -1,0 +1,161 @@
+Note: %d is called a format specifier. In C Programming values can be of type integer, floating-point, single character, or sequence of characters. We use format specifiers in C to display values of a variable of a different type.
+
+#include <stdio.h>
+
+int main() {
+  printf("%d",13);
+  return 0;
+}
+
+13
+
+############################################
+All textual content should start and end with double quotes. For eg -
+
+printf( "Hey");
+
+#############################################
+
+We can use ""\n"" to insert new lines.
+
+
+#include <stdio.h>
+
+int main() {
+printf("%d \n", 3 + 4 );
+  printf("%d", 2 + 1);
+  return 0;
+}
+
+7
+3
+
+###############################################
+
+#include <stdio.h>
+
+int main() {
+  printf("d", 21+ 40 );                      # only d     not % d
+ 
+  return 0;
+}
+
+output:--
+d
+
+################################
+#include <stdio.h>
+
+int main() {
+  printf("%d", 21 + 40 );
+  return 0;
+}
+
+61
+
+#################################################
+
+Write a program for the following problem
+
+Let’s take a rectangle of sides 11 and 13.
+Output to the console the following on separate lines
+Area of the rectangle
+Perimeter of the rectangle
+
+
+#include <stdio.h>
+
+int main() {
+  printf("%d \n", 11 * 13 );
+  printf("%d", 2*(11 + 13));
+  return 0;
+}
+
+
+143 
+48
+
+######################################
+
+You can also have multiple outputs together in a single "printf()" command.
+
+ for eg - printf("%d %d", 12 , 11)
+Write a program that does the following
+
+Output: 3 + 4
+Output: 2 + 1 in a single line with a space between them using the syntax suggested above.
+
+
+#include <stdio.h>
+
+int main() {
+  printf("%d %d", 3+4 , 2 + 1 );
+  return 0;
+}
+
+7 3
+########################################################
+
+Write a program that does the following
+
+Output the result - Product of the integers 
+8
+8 & 
+9
+9
+Output the result - Quotient of 
+100
+100 & 
+5
+5
+Note - the answer should be in integer format.
+Output both results to separate lines in the console
+
+
+#include <stdio.h>
+
+int main() {
+  printf("%d \n", 8 * 9 );
+  printf("%d", 100/5 );
+  return 0;
+}
+
+72
+20
+###########################################################
+change the value of width fron 13 to 15 !
+
+#include <stdio.h>
+
+int main() {
+  int length = 11;
+  int width = 13;
+  printf("%d \n", length * width);
+  printf("%d \n", 2*(length+width));
+  width = 15 ; 
+  printf("%d \n", length * width);
+  printf("%d", 2*(length+width));
+  
+  return 0;
+}
+
+
+143 
+48 
+165 
+52
+
+############################################################
+
+#include <stdio.h>
+
+int main() {
+  int Number = 19 ;
+  printf("%d",Number );
+  return 0;
+}
+
+19
+
+#########################
+
