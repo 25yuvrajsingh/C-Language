@@ -99,9 +99,33 @@ output:--
 #################################################################################
 
 
+Suppose we have a value with a lot of digits after the decimals and they are useless in the output we are
+providing we can use the %f format specifier to trim decimal places according to our requirements.
+
+for eg -
+      double int = 1.101000000
+      printf("%0.3f", int) \\0.3f - this specifies how many digits we want after  
+      output - 1.101                the decimal in our case 3.
+      
+Write a program for the following -
+Declare a variable num and assign it the value 4.4587658.
+Display the variable with only 2 decimal places.
 
 
+code:--
 
+#include <stdio.h>
+
+int main() {
+  
+  double num = 4.4587658 ;
+  printf("%0.2f", num );
+  return 0;
+}
+
+output:--
+
+4.46
 
 
 
