@@ -78,6 +78,58 @@ Hello Chef
 ###################################################################
 
 
+int main() {
+  char x[10];
+  scanf("%s", &x);
+  printf("Hello ");
+  printf("%s", x);
+  return 0;
+}
+
+Input
+Chef
+Output
+Hello Chef
+
+int main() {
+  char x[10];
+  scanf("%s", &x);
+  printf("Hello ");
+  printf("%s", x);
+  return 0;
+}
+
+Input
+Chef
+Output
+Hello Chef
+
+int main() {
+  char x[10];
+  scanf("%s", &x);
+  printf("Hello ");
+  printf("%s", x);
+  return 0;
+}
+
+Input
+Chef
+Output
+Hello Chef
+
+int main() {
+  char x[10];
+  scanf("%s", &x);
+  printf("Hello ");
+  printf("%s", x);
+  return 0;
+}
+
+Input
+Chef
+Output
+Hello Chef
+
 
 
 
